@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-        - name: "summerdockersecret"
+        - name: summerdockersecret
         minReplicas: 1
         maxReplicas: 1
         containers:
